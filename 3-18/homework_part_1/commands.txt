@@ -1,0 +1,66 @@
+1) Justins-MacBook-Air:homework_part_1 theSource$ ls
+commands.txt
+Justins-MacBook-Air:homework_part_1 theSource$ cd ..
+Justins-MacBook-Air:homework theSource$ cd homework_part_1/
+Justins-MacBook-Air:homework_part_1 theSource$ mkdir death_star
+Justins-MacBook-Air:homework_part_1 theSource$ cd death_star/
+Justins-MacBook-Air:death_star theSource$ touch darth_vader.txt princess_leia.txt storm_trooper.txt
+
+2) Justins-MacBook-Air:homework_part_1 theSource$ mkdir galaxy_far_far_away
+Justins-MacBook-Air:homework_part_1 theSource$ cd galaxy_far_far_away/
+Justins-MacBook-Air:galaxy_far_far_away theSource$ mkdir tatooine
+Justins-MacBook-Air:galaxy_far_far_away theSource$ cd tatooine/
+Justins-MacBook-Air:tatooine theSource$ touch luke.txt ben_kenobi.txt
+
+3) Justins-MacBook-Air:tatooine theSource$ mkdir millenium_falcon
+Justins-MacBook-Air:tatooine theSource$ cd millenium_falcon/
+Justins-MacBook-Air:millenium_falcon theSource$ touch han_solo.txt chewbaca.txt
+
+4) Justins-MacBook-Air:millenium_falcon theSource$ cd ..
+Justins-MacBook-Air:tatooine theSource$ mv ben_kenobi.txt obi_wan.txt
+
+5) Justins-MacBook-Air:galaxy_far_far_away theSource$ cp ~/ga-sei/3-18/homework/homework_part_1/death_star/storm_trooper.txt tatooine/
+
+6) Justins-MacBook-Air:tatooine theSource$ mv luke.txt obi_wan.txt millenium_falcon/
+
+7) Justins-MacBook-Air:galaxy_far_far_away theSource$ mv tatooine/millenium_falcon/ .
+
+8)Justins-MacBook-Air:galaxy_far_far_away theSource$ mv millenium_falcon/ death_star/
+
+9) Justins-MacBook-Air:galaxy_far_far_away theSource$ mv death_star/princess_leia.txt death_star/millenium_falcon/
+
+10) Justins-MacBook-Air:galaxy_far_far_away theSource$ rm death_star/millenium_falcon/obi_wan.txt
+
+11) Justins-MacBook-Air:galaxy_far_far_away theSource$ mkdir yavin_4
+
+12) Justins-MacBook-Air:galaxy_far_far_away theSource$ mv death_star/millenium_falcon/ yavin_4/
+
+13) Justins-MacBook-Air:galaxy_far_far_away theSource$ mkdir yavin_4/x_wing
+
+14) Justins-MacBook-Air:galaxy_far_far_away theSource$ mv yavin_4/millenium_falcon/princess_leia.txt yavin_4/
+Justins-MacBook-Air:galaxy_far_far_away theSource$ mv yavin_4/millenium_falcon/luke.txt yavin_4/x_wing/
+
+15) Justins-MacBook-Air:galaxy_far_far_away theSource$ mv yavin_4/millenium_falcon .
+Justins-MacBook-Air:galaxy_far_far_away theSource$ mv yavin_4/x_wing .
+
+16) Justins-MacBook-Air:galaxy_far_far_away theSource$ cd death_star/
+Justins-MacBook-Air:death_star theSource$ mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+
+17) Justins-MacBook-Air:death_star theSource$ mv darth_vader.txt tie_fighter_1/
+
+18) Justins-MacBook-Air:death_star theSource$ cp storm_trooper.txt tie_fighter_2
+Justins-MacBook-Air:death_star theSource$ cp storm_trooper.txt tie_fighter_3
+
+19) Justins-MacBook-Air:galaxy_far_far_away theSource$ mv death_star/tie_fighter_1 .
+Justins-MacBook-Air:galaxy_far_far_away theSource$ mv death_star/tie_fighter_2 .
+Justins-MacBook-Air:galaxy_far_far_away theSource$ mv death_star/tie_fighter_3 .
+
+20) Justins-MacBook-Air:galaxy_far_far_away theSource$ rm -r tie_fighter_2
+Justins-MacBook-Air:galaxy_far_far_away theSource$ rm -r tie_fighter_3
+
+21) Justins-MacBook-Air:galaxy_far_far_away theSource$ touch yavin_4/x_wing/the_force.txt
+
+22) Justins-MacBook-Air:galaxy_far_far_away theSource$ rm -r death_star/
+
+23) Justins-MacBook-Air:galaxy_far_far_away theSource$ mv x_wing/ yavin_4/
+Justins-MacBook-Air:galaxy_far_far_away theSource$ mv millenium_falcon/ yavin_4/
