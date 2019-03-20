@@ -29,3 +29,16 @@ for (let i = 1; i < 101; i++) {
     console.log(i);
   }
 }
+
+//Question 5
+const kenny = ["Kenny", 1000, "Austin"];
+const jimHaff = ["Jim H", 16, "All cities"];
+const reuben = ["Reuben", 22, "Durham"];
+const jimClark = ["Jim C", 186, "LA"];
+const ryan = ["Ryan", 65, "Denver"];
+kenny[0] = 'Gameboy';
+jimClark[1] += 1;
+ryan[2] = 'Gotham City';
+reuben.splice(2,1,'Chicago');
+jimHaff.splice(2,1,'New York', 'Austin', 'Nashville');
+jimHaff.splice(2,1);
