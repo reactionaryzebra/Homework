@@ -116,3 +116,11 @@ dressKristyn(kristynsCloset);
 dressThom(thomsCloset);
 dressThom(thomsCloset);
 dressThom(thomsCloset);
+
+//Question 8
+for (let i = 0; i < kristynsCloset.length; i++) {
+  console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+}
+for (let i = 0; i < thomsCloset.length; i++) {
+  console.log(thomsCloset[i]);
+}
