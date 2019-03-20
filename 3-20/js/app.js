@@ -133,3 +133,18 @@ for (let i = 0; i < 1000; i++) {
   }
 }
 console.log(grandSum);
+
+//Triangles
+const argument = 7;
+for (let i = 1; i <= argument; i++) {
+  console.log('#'.repeat(i));
+}
+for (let i = 1; i <= argument ; i++) {
+  console.log(' '.repeat(argument - i) + '#'.repeat(i));
+}
+for (let i = 0; i < argument; i++) {
+  console.log('#'.repeat(argument - i) + ' '.repeat(i));
+}
+for (let i = 0; i < argument; i++) {
+  console.log(' '.repeat(i) + '#'.repeat(argument - i));
+}
