@@ -148,3 +148,14 @@ for (let i = 0; i < argument; i++) {
 for (let i = 0; i < argument; i++) {
   console.log(' '.repeat(i) + '#'.repeat(argument - i));
 }
+
+//Find the Median
+const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18,12, 17, 12, 71, 18, 15, 12];
+nums.sort();
+let avg = null;
+if (nums.length % 2 === 0){
+  avg = (nums[nums.length/2] + nums[(nums.length/2)-1]) / 2;
+} else {
+  avg = nums[Math.floor(nums.length/2)];
+}
+console.log(avg);
