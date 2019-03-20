@@ -124,3 +124,12 @@ for (let i = 0; i < kristynsCloset.length; i++) {
 for (let i = 0; i < thomsCloset.length; i++) {
   console.log(thomsCloset[i]);
 }
+
+//Question 9
+let grandSum = 0
+for (let i = 0; i < 1000; i++) {
+  if((i%3===0)|| (i%5===0)){
+    grandSum += i;
+  }
+}
+console.log(grandSum);
