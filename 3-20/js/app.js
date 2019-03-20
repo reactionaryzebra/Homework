@@ -59,3 +59,60 @@ for (let i = 0; i < ninjaTurtles.length; i++) {
   casedTurtle = '';
 }
 console.log(casedTurtles);
+
+//Question 7
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+const kristynsShoe = kristynsCloset[0];
+kristynsCloset.splice(0, 1);
+thomsCloset[2].push(kristynsShoe);
+function dressKristyn(arr){
+  let randomOutfit = [];
+  while (randomOutfit.length < 3){
+    let randomIndex = Math.floor(Math.random()* arr.length);
+    if (!randomOutfit.includes(arr[randomIndex])){
+      randomOutfit.push(arr[randomIndex]);
+    }
+  }
+  console.log(`Today, Kristyn will be wearing ${randomOutfit[0]}, ${randomOutfit[1]}, and ${randomOutfit[2]}.`)
+}
+function dressThom(arr){
+  let randomShirt = thomsCloset[0][Math.floor(Math.random() * thomsCloset[0].length)]
+  let randomPants = thomsCloset[1][Math.floor(Math.random() * thomsCloset[1].length)]
+  let randomAccessory = thomsCloset[2][Math.floor(Math.random() * thomsCloset[2].length)]
+  console.log(`Today Thom will be wearing ${randomShirt}, ${randomPants}, ${randomAccessory}.`)
+}
+dressKristyn(kristynsCloset);
+dressKristyn(kristynsCloset);
+dressKristyn(kristynsCloset);
+dressThom(thomsCloset);
+dressThom(thomsCloset);
+dressThom(thomsCloset);
