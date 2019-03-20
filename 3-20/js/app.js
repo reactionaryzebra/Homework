@@ -42,3 +42,20 @@ ryan[2] = 'Gotham City';
 reuben.splice(2,1,'Chicago');
 jimHaff.splice(2,1,'New York', 'Austin', 'Nashville');
 jimHaff.splice(2,1);
+
+//Question 6
+const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+let casedTurtles = [];
+for (let i = 0; i < ninjaTurtles.length; i++) {
+  let casedTurtle = '';
+  for (let j = 0; j < ninjaTurtles[i].length; j++) {
+    if (j % 2 === 0){
+      casedTurtle += ninjaTurtles[i][j].toUpperCase();
+    } else {
+      casedTurtle += ninjaTurtles[i][j]
+    }
+  }
+  casedTurtles.push(casedTurtle);
+  casedTurtle = '';
+}
+console.log(casedTurtles);
